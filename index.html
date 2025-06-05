@@ -4,8 +4,8 @@
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
    <meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
    <meta name="theme-color" content="#ffffff">
    <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
@@ -31,7 +31,6 @@
    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
    <title>Restaurant Roesicke</title>
 </head>
@@ -48,7 +47,7 @@
                <img src="./images/slide-2.jpg" alt="" class="banner__slider-img" />
             </div>
 
-            <div class="banner__logo-wrapper">
+            <div class="banner__logo-wrapper hidden">
                <img class="banner__icon" src="./images/logo.svg" alt="Logo Roesicke">
                <div class="banner__logo-text-wrapper">
                   <p>Restaurant</p>
@@ -56,7 +55,7 @@
                </div>
 
             </div>
-            <div class="banner__center-text">Willkommen</div>
+            <div class="banner__center-text hidden">Willkommen</div>
          </div>
       </section>
       <header class="main-header">
@@ -92,19 +91,18 @@
       </header>
       <section class="welcome">
          <div class="welcome__wrapper wrapper">
-            <h1 class="welcome__title">Willkommen im Restaurant Roesicke</h1>
+            <h1 class="welcome__title" data-aos="fade-left">Willkommen im Restaurant Roesicke</h1>
             <div class="welcome__content-wrapper">
-               <div class="welcome__image-wrapper">
+               <div class="welcome__image-wrapper" data-aos="fade-left" data-aos-duration="1000">
                   <img class="welcome__image photo" src="./images/Foto-Gastraum-Hell.jpeg" alt="Restaurant Roesicke">
-
                </div>
 
-               <div class="welcome__text-wrapper">
+               <div class="welcome__text-wrapper" data-aos="fade-left" data-aos-duration="1100" data-aos-distance="30px">
                   <p class="welcome__text text">Herzlich willkommen im Restaurant & Café Roesicke – Ihrem kulinarischen Rückzugsort in Bad Lobenstein! In unserem gemütlichen Restaurant erwartet Sie eine feine Auswahl an regionalen und saisonalen Spezialitäten, liebevoll zubereitet mit frischen Zutaten. Ob herzhaftes Frühstück, hausgemachte Kuchen oder exquisite Abendgerichte – wir verwöhnen Sie
                      mit
                      Thüringer
                      Genussmomenten in entspannter Atmosphäre.</p>
-                  <h3 class="welcome__text-signature"> Wir freuen uns auf Ihren Besuch!</h3>
+                  <h3 class="welcome__text-signature" data-aos="fade-left" data-aos-duration="1200" data-aos-distance="30px"> Wir freuen uns auf Ihren Besuch!</h3>
                </div>
             </div>
          </div>
@@ -113,15 +111,17 @@
       <section class="uber-uns" id="uber-uns">
 
          <div class="uber-uns__wrapper wrapper">
-            <h3 class="uber-uns__sub-title sub-titles">Über uns</h3>
-            <h1 class="uber-uns__title title">Unsere Philosophie & Tradition</h1>
+            <h3 class="uber-uns__sub-title sub-titles" data-aos="fade-up" data-aos-duration="1000">Über uns</h3>
+            <h1 class="uber-uns__title title" data-aos="fade-up" data-aos-duration="1100">Unsere Philosophie & Tradition</h1>
             <div class="uber-uns__content-wrapper">
                <div class="uber-uns__text-wrapper">
-                  <p class="uber-uns__text text">Das Restaurant Roesicke steht für Genuss, Qualität und Gastfreundschaft – und das bereits seit Generationen. Von den Eltern in den 1980er Jahren gegründet, wird das Restaurant heute liebevoll von den Schwestern Michaela und Heike Roesicke geführt. Seit über 40 Jahren ist das Roesicke eine feste Institution für Thüringer Gastlichkeit und
-                     traditionelle
+                  <p class="uber-uns__text text" data-aos="fade-up" data-aos-duration="1200">Das Restaurant Roesicke steht für Genuss, Qualität und Gastfreundschaft – und das bereits seit Generationen. Von den Eltern in den 1980er Jahren gegründet, wird das Restaurant heute liebevoll von den Schwestern Michaela und Heike Roesicke geführt. Seit über 40 Jahren ist das Roesicke eine
+                     feste
+                     Institution für
+                     Thüringer Gastlichkeit und traditionelle
                      Küche. Hier verbindet sich kulinarisches Handwerk mit echter Herzlichkeit – eine Einladung an alle, die gutes Essen und eine familiäre Atmosphäre schätzen.</p>
                </div>
-               <div class="uber-uns__image-wrapper">
+               <div class="uber-uns__image-wrapper" data-aos="fade-up" data-aos-duration="1300">
                   <img class="uber-uns__image photo" src="./images/Familie.jpeg" alt="Restaurant Roesicke">
                </div>
             </div>
@@ -135,17 +135,17 @@
                   <img class="restaurant__icon" src="./images/restaurant-plate-svgrepo-com.svg" alt="Restaurant Roesicke">
                </div>
                <div class="restaurant__title-wrapper">
-                  <h3 class="restaurant__sub-title sub-titles">Restaurant</h3>
-                  <h1 class="restaurant__title title">Kulinarische Vielfalt für jeden Geschmack</h1>
+                  <h3 class="restaurant__sub-title sub-titles" data-aos="fade-left" data-aos-duration="1000">Restaurant</h3>
+                  <h1 class="restaurant__title title" data-aos="fade-left" data-aos-duration="1100">Kulinarische Vielfalt für jeden Geschmack</h1>
                </div>
             </div>
 
 
             <div class="restaurant__content-wrapper">
-               <div class="restaurant__image-wrapper">
+               <div class="restaurant__image-wrapper" data-aos="zoom-in-down" data-aos-duration="1200">
                   <img class="restaurant__image photo" src="./images/Food-Spargel-Main-Dish.jpeg" alt="Restaurant Roesicke">
                </div>
-               <div class="restaurant__text-wrapper">
+               <div class="restaurant__text-wrapper" data-aos="fade-left" data-aos-duration="1300">
                   <p class="restaurant__text text">Nach jahrelangen Erfahrungen in der internationalen Gastronomie kehrten die Schwestern Michaela und Heike Roesicke zurück in ihre Heimat Bad Lobenstein, um hier mit Leidenschaft und Herz ein kulinarisches Erlebnis zu schaffen.
                      Unsere Küche vereint internationale Rezepte mitsaisonalen Highlights und frischen Zutaten. Geniessen Sie Trüffelgerichte oder herzhafte Thüringer Braten über deftige Klöße bis hin zu süßen Verführungen – erleben Sie den authentischen Geschmack Thüringens und der Welt in gemütlicher Atmosphäre.</p>
                </div>
@@ -160,19 +160,19 @@
             <div class="fruhstuck__content-wrapper">
 
                <div class="fruhstuck__text-wrapper">
-                  <h3 class="fruhstuck__sub-title sub-titles">Frühstück</h3>
-                  <h1 class="fruhstuck__title title">Unsere saisonalen Angebote </h1>
-                  <p class="fruhstuck__text text">Beginnen Sie den Tag mit einem köstlichen Frühstück, das für einen perfekten Start sorgt.</p>
+                  <h3 class="fruhstuck__sub-title sub-titles" data-aos="fade-right" data-aos-duration="1000">Frühstück</h3>
+                  <h1 class="fruhstuck__title title" data-aos="fade-right" data-aos-duration="1100">Unsere saisonalen Angebote </h1>
+                  <p class="fruhstuck__text text" data-aos="fade-right" data-aos-duration="1200">Beginnen Sie den Tag mit einem köstlichen Frühstück, das für einen perfekten Start sorgt.</p>
                </div>
 
-               <div class="fruhstuck__image-wrapper">
+               <div class="fruhstuck__image-wrapper" data-aos="zoom-in-down" data-aos-duration="1300">
                   <img class="fruhstuck__image photo" src="./images/Breakfast.jpeg" alt="fruhstuck Roesicke">
                </div>
             </div>
          </div>
 
       </section>
-      <div class="image-strip__wrapper">
+      <div class="image-strip__wrapper wrapper">
          <img class="image-strip" src="./images/strip-line.png" alt="terrasse Roesicke">
       </div>
       <section class="terrasse" id="terrasse">
@@ -180,17 +180,17 @@
          <div class="terrasse__wrapper wrapper">
             <div class="terrasse__title-block">
                <div class="terrasse__title-wrapper">
-                  <h3 class="terrasse__sub-title sub-titles">Terrasse</h3>
-                  <h1 class="terrasse__title title">Genießen unter freiem Himmel</h1>
+                  <h3 class="terrasse__sub-title sub-titles" data-aos="fade-left" data-aos-duration="1000">Terrasse</h3>
+                  <h1 class="terrasse__title title" data-aos="fade-left" data-aos-duration="1100">Genießen unter freiem Himmel</h1>
                </div>
             </div>
 
 
             <div class="terrasse__content-wrapper">
-               <div class="terrasse__image-wrapper">
+               <div class="terrasse__image-wrapper" data-aos="fade-left" data-aos-duration="1200">
                   <img class="terrasse__image photo" src="./images/Terrasse.jpeg" alt="terrasse Roesicke">
                </div>
-               <div class="terrasse__text-wrapper">
+               <div class="terrasse__text-wrapper" data-aos="fade-left" data-aos-duration="1300">
                   <p class="terrasse__text text">Sommergenuss in unserer Außengastronomie
                      Genießen Sie die warme Jahreszeit in unserem idyllischen Garten oder auf der sonnigen Terrasse. Lassen Sie sich mit duftendem Kaffee, hausgemachtem Kuchen oder erfrischenden Cocktails verwöhnen – der perfekte Ort für eine kleine Auszeit mit Blick ins Grüne. (Bitte beachten Sie, dass es in den Sommermonaten keine warme Küche gibt)</p>
                </div>
@@ -201,7 +201,7 @@
       </section>
 
 
-      <div class="image-strip__wrapper">
+      <div class="image-strip__wrapper wrapper">
          <img class="image-strip" src="./images/strip-line.png" alt="terrasse Roesicke">
       </div>
 
@@ -209,18 +209,18 @@
 
          <div class="eiscreme__wrapper wrapper">
             <div class="eiscreme__title-block">
-               <h3 class="eiscreme__sub-title sub-titles">Eiscreme</h3>
-               <h1 class="eiscreme__title title">Erfrischung für Groß & Klein</h1>
+               <h3 class="eiscreme__sub-title sub-titles" data-aos="fade-up" data-aos-duration="1000">Eiscreme</h3>
+               <h1 class="eiscreme__title title" data-aos="fade-up" data-aos-duration="1100">Erfrischung für Groß & Klein</h1>
             </div>
 
             <div class="eiscreme__content-wrapper">
                <div class="eiscreme__text-wrapper">
-                  <p class="eiscreme__text text">Ob cremige Klassiker, fruchtige Sorbets oder saisonale Spezialitäten – unser Eisangebot sorgt für Genussmomente an heißen Tagen. Gönnen Sie sich eine Pause und genießen Sie ein leckeres Eis in unserer Außengastronomie oder bei einem Spaziergang durch Bad Lobenstein!
+                  <p class="eiscreme__text text" id="eiscreme-text" data-aos="fade-up" data-aos-duration="1200">Ob cremige Klassiker, fruchtige Sorbets oder saisonale Spezialitäten – unser Eisangebot sorgt für Genussmomente an heißen Tagen. Gönnen Sie sich eine Pause und genießen Sie ein leckeres Eis in unserer Außengastronomie oder bei einem Spaziergang durch Bad Lobenstein!
                   </p>
-                  <p class="eiscreme__text text">Unseren Eiswagen können Sie für Firmenevents oder Dorf- und Stadtfeste buchen. Kreieren Sie Ihre eigenen Events mit unserem Eiswagen!</p>
+                  <p class="eiscreme__text text" id="eiscreme-text" data-aos="fade-up" data-aos-duration="1300">Unseren Eiswagen können Sie für Firmenevents oder Dorf- und Stadtfeste buchen. Kreieren Sie Ihre eigenen Events mit unserem Eiswagen!</p>
                </div>
 
-               <div class="eiscreme__image-wrapper">
+               <div class="eiscreme__image-wrapper" data-aos="fade-up" data-aos-duration="1400" data-aos-anchor="#eiscreme-text">
                   <img class="eiscreme__image photo" src="./images/Eis.jpeg" alt="eiscreme Roesicke">
                </div>
             </div>
@@ -231,23 +231,24 @@
          <div class="catering__wrapper wrapper">
             <div class="catering__title-block">
                <div class="catering__title-wrapper">
-                  <h3 class="catering__sub-title sub-titles">Catering</h3>
-                  <h1 class="catering__title title">Ihr Event bei uns</h1>
+                  <h3 class="catering__sub-title sub-titles" data-aos="fade-up" data-aos-duration="1000">Catering</h3>
+                  <h1 class="catering__title title" data-aos="fade-up" data-aos-duration="1100">Ihr Event bei uns</h1>
                </div>
-               <div class="catering__icon-wrapper">
+               <div class="catering__icon-wrapper" data-aos="fade-left" data-aos-duration="1200">
                   <img class="catering__icon" src="./images/chef-hat-svgrepo-com.svg" alt="catering Roesicke">
                </div>
             </div>
 
 
             <div class="catering__content-wrapper">
-               <div class="catering__image-wrapper">
+               <div class="catering__image-wrapper" data-aos="fade-up" data-aos-duration="1300">
                   <img class="catering__image photo" src="./images/Schnittchen.jpeg" alt="catering Roesicke">
                </div>
-               <div class="catering__text-wrapper">
+               <div class="catering__text-wrapper" data-aos="fade-up" data-aos-duration="1400">
                   <p class="catering__text text">Ob Familienfeier, Geburtstag oder Firmenveranstaltung – im Restaurant Roesicke gestalten wir Ihre Feier ganz nach Ihren Wünschen. Unsere gemütlichen Räumlichkeiten bieten Platz für stilvolle Feiern, und unser Team kümmert sich um eine individuelle kulinarische Begleitung.
                   </p>
-                  <p class="catering__text-paragraph text">Sie planen eine Veranstaltung an einem anderen Ort? Kein Problem! Mit unserem Catering-Service bringen wir den Geschmack von Roesicke direkt zu Ihnen. Unser Angebot reicht von feinen Canapés bis hin zu mehrgängigen Menüs. Gut zu wissen: Familienfeiern & Catering sind die ganze Woche über möglich – sprechen Sie uns einfach an!</p>
+                  <p class="catering__text-paragraph text" data-aos="fade-up" data-aos-duration="1500">Sie planen eine Veranstaltung an einem anderen Ort? Kein Problem! Mit unserem Catering-Service bringen wir den Geschmack von Roesicke direkt zu Ihnen. Unser Angebot reicht von feinen Canapés bis hin zu mehrgängigen Menüs. Gut zu wissen: Familienfeiern & Catering sind die ganze Woche über möglich
+                     – sprechen Sie uns einfach an!</p>
                </div>
 
             </div>
@@ -255,8 +256,8 @@
 
       </section>
       <section class="picture">
-         <div class="picture__wrapper">
-            <p class="picture__text">Mit Liebe gekocht. Mit Herz serviert.</p>
+         <div class="picture__wrapper" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="picture__text" data-aos="zoom-in" data-aos-duration="1000">Mit Liebe gekocht. Mit Herz serviert.</p>
             <a class="picture__button" href="https://wa.me/491727097962" target="_blank" rel="noopener">
                Reservierung
             </a>
@@ -265,21 +266,22 @@
       <section class="shop" id="shop">
          <div class="shop__wrapper wrapper">
             <div class="shop__content-wrapper">
-               <div class="fruhstuck__text-wrapper">
+               <div class="shop__text-block">
                   <div class="shop__title-wrapper">
-                     <h3 class="shop__sub-title sub-titles">Unser shop</h3>
-                     <h1 class="shop__title title">Genuss zum Mitnehmen</h1>
+                     <h3 class="shop__sub-title sub-titles" data-aos="fade-right" data-aos-duration="1500">Unser shop</h3>
+                     <h1 class="shop__title title" data-aos="fade-right" data-aos-duration="2000">Genuss zum Mitnehmen</h1>
                   </div>
 
                   <div class="shop__text-wrapper">
-                     <p class="shop__text text">In unserem hauseigenen Laden finden Sie eine Auswahl an hochwertigen Geschenkartikeln und regionalen Spezialitäten. Entdecken Sie: Feine Tees Hausgemachte Marmeladen Schokoladen und Pralinen Gourmet-Fleischdosen Unsere besondere Wildschwein-Salami Dekoartikel von räder Porzellan Kosmetik von Walde und Inis Ob als Mitbringsel oder für den eigenen
-                        Genuss –
+                     <p class="shop__text text" data-aos="fade-right" data-aos-duration="2500">In unserem hauseigenen Laden finden Sie eine Auswahl an hochwertigen Geschenkartikeln und regionalen Spezialitäten. Entdecken Sie: Feine Tees Hausgemachte Marmeladen Schokoladen und Pralinen Gourmet-Fleischdosen Unsere besondere Wildschwein-Salami Dekoartikel von räder Porzellan Kosmetik von Walde und
+                        Inis Ob
+                        als Mitbringsel oder für den eigenen Genuss –
                         bei
                         uns finden Sie liebevoll ausgewählte Köstlichkeiten mit besonderer Note.</p>
                   </div>
                </div>
 
-               <div class="shop__image-wrapper">
+               <div class="shop__image-wrapper" data-aos="zoom-out" data-aos-duration="2500">
                   <img class="shop__image photo" src="./images/Laden.jpeg" alt="shop Roesicke">
                </div>
             </div>
@@ -288,17 +290,17 @@
       <section class="saphira" id="saphira">
          <div class="saphira__wrapper wrapper">
             <div class="saphira__content-wrapper">
-               <div class="saphira__image-wrapper">
+               <div class="saphira__image-wrapper" data-aos="fade-up" data-aos-duration="1300">
                   <img class="saphira__image photo" src="./images/Saphira.jpeg" alt="saphira Roesicke">
                </div>
-               <div class="fruhstuck__text-wrapper">
+               <div class="saphira__text-block">
                   <div class="saphira__title-wrapper">
-                     <h3 class="saphira__sub-title sub-titles">Saphira</h3>
-                     <h1 class="saphira__title title">Unsere flauschige Gastgeberin</h1>
+                     <h3 class="saphira__sub-title sub-titles" data-aos="fade-left" data-aos-duration="1000">Saphira</h3>
+                     <h1 class="saphira__title title" data-aos="fade-left" data-aos-duration="1100">Unsere flauschige Gastgeberin</h1>
                   </div>
 
                   <div class="saphira__text-wrapper">
-                     <p class="saphira__text text">Gute Küche trifft auf schnurrenden Service!
+                     <p class="saphira__text text" data-aos="fade-left" data-aos-duration="1200">Gute Küche trifft auf schnurrenden Service!
                         Unsere Gäste lieben sie – Saphira, die charmante Katze des Hauses! Ob im Restaurant oder Café, sie sorgt für Gemütlichkeit und freut sich über Streicheleinheiten.
 
                      </p>
@@ -308,50 +310,50 @@
          </div>
       </section>
       <section class="kontakt" id="kontakt">
-         <div class="kontakt__container wrapper" id="kontakt">
+         <div class="kontakt__container wrapper">
 
             <div class="kontakt__icon-wrapper">
                <h1 class="kontakt__title title">Wir freuen uns auf Sie!</h1>
-               <img class="kontakt__icon" src="./images/coffee-love-svgrepo-com.svg" alt="catering Roesicke">
+               <img class="kontakt__icon" data-aos="fade-left" data-aos-delay="1700" src="./images/coffee-love-svgrepo-com.svg" alt="catering Roesicke">
             </div>
             <div class="kontakt__row">
-               <div class="kontakt__col kontakt__col--info" data-aos="fade-up" data-aos-delay="50">
-                  <p class="kontakt__desc">
+               <div class="kontakt__col kontakt__col--info">
+                  <p class="kontakt__desc" data-aos="fade-up" data-aos-delay="1000">
                      Reservieren Sie jetzt Ihren Tisch oder kontaktieren Sie uns für Feieranfragen und Catering-Angebote.
                   </p>
-                  <p class="kontakt__phones-label">
+                  <p class="kontakt__phones-label" data-aos="fade-up" data-aos-delay="1000">
                      Reservierungen NUR telefonisch oder unter Whatsapp unter:
                   </p>
                   <p>
                      <strong>
-                        <a class="kontakt__phone hover-underline-link" href="https://wa.me/491727097962" target="_blank" rel="noopener">
+                        <a class="kontakt__phone hover-underline-link" data-aos="fade-up" data-aos-delay="1100" href="https://wa.me/491727097962" target="_blank" rel="noopener">
                            +49 172 - 70 97 962
                         </a>
                      </strong>
                   </p>
                   <p>
-                     <span class="kontakt__festnetz-label">Festnetz:</span><br>
+                     <span class="kontakt__festnetz-label" data-aos="fade-up" data-aos-delay="1200">Festnetz:</span><br>
                      <strong>
-                        <a class="kontakt__phone hover-underline-link" href="tel:+49366512783">+49 36651 2783</a>
+                        <a class="kontakt__phone hover-underline-link" href="tel:+49366512783" data-aos="fade-up" data-aos-delay="1300">+49 36651 2783</a>
                      </strong>
                   </p>
-                  <h3 class="kontakt__subtitle">Restaurant &amp; Cafe Roesicke</h3>
+                  <h3 class="kontakt__subtitle" data-aos="fade-up" data-aos-delay="1400">Restaurant &amp; Cafe Roesicke</h3>
                   <p class="kontakt__address">
-                     <a href="https://www.google.com/maps/search/?api=1&query=Mühlgasse+21,+07356+Bad+Lobenstein" target="_blank" rel="noopener" class="kontakt__address-link">
+                     <a href="https://www.google.com/maps/search/?api=1&query=Mühlgasse+21,+07356+Bad+Lobenstein" data-aos="fade-up" data-aos-delay="1400" target="_blank" rel="noopener" class="kontakt__address-link">
                         Mühlgasse 21<br>
                         07356 Bad Lobenstein
                      </a>
                   </p>
                </div>
                <div class="kontakt__col kontakt__col--times">
-                  <h5 class="kontakt__open-title">UNSERE ÖFFNUNGSZEITEN</h5>
+                  <h5 class="kontakt__open-title" data-aos="fade-left" data-aos-delay="1500">UNSERE ÖFFNUNGSZEITEN</h5>
                   <div class="kontakt__times-row">
                      <div class="kontakt__times-col">
                         <div>
-                           <p class="kontakt__season-title">
+                           <p class="kontakt__season-title" data-aos="fade-left" data-aos-delay="1600">
                               November – April:
                            </p>
-                           <p class="kontakt__times-small">
+                           <p class="kontakt__times-small" data-aos="fade-left" data-aos-delay="1600">
                               <strong>Freitag:</strong><br>12:00 – 22:00 Uhr<br><br>
                               <strong>Samstag:</strong><br>9:00 – 11:00 Uhr (Frühstück)<br>
                               &amp; 12:00 – 22:00 Uhr (Warme Küche/Kaffee/Kuchen/Getränke)<br><br>
@@ -362,10 +364,10 @@
                      </div>
                      <div class="kontakt__times-col">
                         <div>
-                           <p class="kontakt__season-title">
+                           <p class="kontakt__season-title" data-aos="fade-left" data-aos-delay="1600">
                               Mai – Oktober:
                            </p>
-                           <p class="kontakt__times-small">
+                           <p class="kontakt__times-small" data-aos="fade-left" data-aos-delay="1600">
                               <strong>Freitag:</strong><br>13:00 – 18:00 Uhr<br><br>
                               <strong>Samstag:</strong><br>9:00 – 12:00 Uhr (Frühstück)<br>
                               &amp; 13:00 – 18:00 Uhr (Kaffee/Kuchen/Getränke)<br><br>
@@ -380,22 +382,20 @@
          </div>
       </section>
       <section class="privacy">
-         <div class="privacy__wrapper wrapper">
-            <h1 class="privacy__title">Rechtliche Hinweise & Datenschutz</h1>
-            <p class="privacy__text">Haftung für Inhalte: Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.
-               Haftung für Links: Diese Website enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.
-               Datenschutz: Der Schutz Ihrer persönlichen Daten ist uns wichtig. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften.
-               Bei einem Besuch unserer Website können Daten (z. B. IP-Adresse, aufgerufene Seiten) automatisch gespeichert werden. Diese Daten dienen ausschließlich der statistischen Auswertung und Verbesserung unseres Angebots.
-               Falls Sie mit uns in Kontakt treten (z. B. per E-Mail oder Telefon), werden Ihre Angaben ausschließlich zur Bearbeitung Ihrer Anfrage verwendet und nicht an Dritte weitergegeben.</p>
+         <div class="privacy__wrapper wrapper" data-aos="fade-right" data-aos-delay="1000">
+            <h1 class="privacy__title title">Rechtliche Hinweise & Datenschutz</h1>
+            <p class="privacy__text text">Haftung für Inhalte: Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.
+               <br>Haftung für Links: Diese Website enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.
+               <br>Datenschutz: Der Schutz Ihrer persönlichen Daten ist uns wichtig. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften.
+               <br>Bei einem Besuch unserer Website können Daten (z. B. IP-Adresse, aufgerufene Seiten) automatisch gespeichert werden. Diese Daten dienen ausschließlich der statistischen Auswertung und Verbesserung unseres Angebots.
+               Falls Sie mit uns in Kontakt treten (z. B. per E-Mail oder Telefon), werden Ihre Angaben ausschließlich zur Bearbeitung Ihrer Anfrage verwendet und nicht an Dritte weitergegeben.
+            </p>
          </div>
       </section>
-
-
-
    </main>
-   <div class="viber-fab__wrapper ">
-      <a href="viber://chat?number=%2B491727097962" class="viber-fab" id="viberFab" title="Reservierung via Viber" target="_blank" rel="noopener">
-         <div class="viber-fab__icon">
+   <div class="whatsapp-fab__wrapper ">
+      <a href="https://wa.me/491727097962" class="whatsapp-fab" id="whatsappFab" title="Reservierung via Whatsapp" target="_blank" rel="noopener">
+         <div class="whatsapp-fab__icon">
             <svg width="70" height="70" viewBox="0 0 70 70" fill="none" transform="matrix(-1, 0, 0, 1, 0, 0)">
                <g transform="translate(4,20) scale(0.5)">
                   <path id="_0401-vegan" data-name="0401-vegan"
@@ -404,7 +404,7 @@
                </g>
             </svg>
          </div>
-         <span class="viber-fab__text">Reservierung</span>
+         <span class="whatsapp-fab__text">Reservierung</span>
       </a>
    </div>
 
