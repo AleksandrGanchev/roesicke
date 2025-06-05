@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Correct the line height in all browsers.
@@ -367,7 +366,6 @@ template {
     margin-left: 0px;
   }
 }
-
 @media (max-width: 992px) {
   .welcome {
     padding: 90px 0;
@@ -381,7 +379,6 @@ template {
     font-size: 26px;
   }
 }
-
 @media (max-width: 768px) {
   .welcome__content-wrapper {
     flex-direction: column;
@@ -397,7 +394,6 @@ template {
     margin-top: 40px;
   }
 }
-
 @media (max-width: 576px) {
   .welcome {
     padding: 40px 0;
@@ -411,7 +407,6 @@ template {
     font-size: 21px;
   }
 }
-
 .uber-uns {
   background-color: #f8f8f8;
   padding: 125px 0;
@@ -454,7 +449,6 @@ template {
     padding: 0px;
   }
 }
-
 @media (max-width: 1200px) {
   .uber-uns__content-wrapper {
     flex-direction: column-reverse;
@@ -470,19 +464,16 @@ template {
     margin-bottom: 40px;
   }
 }
-
 @media (max-width: 992px) {
   .uber-uns {
     padding: 90px 0;
   }
 }
-
 @media (max-width: 576px) {
   .uber-uns {
     padding: 40px 0;
   }
 }
-
 .restaurant {
   padding: 125px 0;
   overflow-x: hidden;
@@ -550,13 +541,11 @@ template {
     height: 100%;
   }
 }
-
 @media (max-width: 992px) {
   .restaurant {
     padding: 90px 0;
   }
 }
-
 @media (max-width: 768px) {
   .restaurant__content-wrapper {
     flex-direction: column;
@@ -576,7 +565,6 @@ template {
     margin-bottom: 20px;
   }
 }
-
 @media (max-width: 576px) {
   .restaurant {
     padding: 40px 0;
@@ -586,7 +574,6 @@ template {
     margin-bottom: 0px;
   }
 }
-
 .fruhstuck {
   padding: 125px 0 200px 0;
   overflow-x: hidden;
@@ -629,13 +616,11 @@ template {
     padding: 90px 0;
   }
 }
-
 @media (max-width: 768px) {
   .fruhstuck {
     padding-top: 0px;
   }
 }
-
 @media (max-width: 576px) {
   .fruhstuck {
     padding: 40px 0;
@@ -655,7 +640,6 @@ template {
     width: 100%;
   }
 }
-
 .terrasse {
   padding: 100px 0 180px 0;
   overflow-x: hidden;
@@ -719,13 +703,11 @@ template {
     height: 650px;
   }
 }
-
 @media (max-width: 992px) {
   .terrasse {
     padding: 90px 0;
   }
 }
-
 @media (max-width: 768px) {
   .terrasse {
     padding: 60px 0;
@@ -744,7 +726,6 @@ template {
     width: 100%;
   }
 }
-
 @media (max-width: 576px) {
   .terrasse {
     padding: 40px 0;
@@ -754,7 +735,6 @@ template {
     height: 400px;
   }
 }
-
 .eiscreme {
   padding: 150px 0 125px 0;
   overflow-x: hidden;
@@ -803,7 +783,6 @@ template {
     height: 600px;
   }
 }
-
 @media (max-width: 992px) {
   .eiscreme {
     padding: 60px 0;
@@ -813,7 +792,6 @@ template {
     width: 50%;
   }
 }
-
 @media (max-width: 768px) {
   .eiscreme__content-wrapper {
     flex-direction: column;
@@ -829,7 +807,6 @@ template {
     height: 100%;
   }
 }
-
 @media (max-width: 576px) {
   .eiscreme {
     padding: 40px 0;
@@ -839,7 +816,6 @@ template {
     height: 100%;
   }
 }
-
 .catering {
   padding: 125px 0 250px 0;
   overflow-x: hidden;
@@ -894,7 +870,6 @@ template {
     margin-bottom: 20px;
   }
 }
-
 @media (max-width: 992px) {
   .catering {
     padding: 60px 0;
@@ -908,7 +883,6 @@ template {
     margin-left: 0px;
   }
 }
-
 @media (max-width: 768px) {
   .catering__content-wrapper {
     flex-direction: column;
@@ -928,7 +902,6 @@ template {
     margin-bottom: 5px;
   }
 }
-
 @media (max-width: 576px) {
   .catering {
     padding: 40px 0;
@@ -941,7 +914,6 @@ template {
     margin-top: 5px;
   }
 }
-
 .picture__wrapper {
   position: relative;
   background: url("../images/Foto-Gastraum-Hell.jpeg") center center/cover no-repeat;
@@ -1020,7 +992,6 @@ template {
     font-size: 26px;
   }
 }
-
 @media (max-width: 576px) {
   .picture__text {
     font-size: 80px;
@@ -1032,7 +1003,6 @@ template {
     font-size: 21px;
   }
 }
-
 .shop {
   padding: 125px 0 125px 0;
   overflow-x: hidden;
@@ -1082,19 +1052,16 @@ template {
     margin-bottom: 40px;
   }
 }
-
 @media (max-width: 768px) {
   .shop__image-wrapper {
     height: 100%;
   }
 }
-
 @media (max-width: 576px) {
   .shop {
     padding: 40px 0;
   }
 }
-
 .saphira {
   padding: 125px 0 125px 0;
   overflow-x: hidden;
@@ -1147,14 +1114,12 @@ template {
     width: 100%;
   }
 }
-
 @media (max-width: 576px) {
   .saphira {
     padding: 40px 0;
     padding-top: 0px;
   }
 }
-
 .banner,
 .banner__wrapper,
 .swiper,
@@ -1261,7 +1226,6 @@ template {
     font-size: 150px;
   }
 }
-
 @media (max-width: 576px) {
   .banner__center-text {
     font-size: 95px;
@@ -1280,7 +1244,6 @@ template {
     margin-left: 15px;
   }
 }
-
 .banner__slider {
   width: 100%;
   height: 100vh;
@@ -1317,7 +1280,6 @@ template {
   z-index: 9998;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
 }
-
 .main-header__container {
   display: flex;
   align-items: center;
@@ -1326,13 +1288,11 @@ template {
   margin: 0 auto;
   height: 70px;
 }
-
 .main-header__logo img {
   height: 48px;
   width: auto;
   display: block;
 }
-
 .main-header__burger {
   width: 30px;
   height: 30px;
@@ -1345,7 +1305,6 @@ template {
   cursor: pointer;
   z-index: 10002;
 }
-
 .main-header__burger span {
   display: block;
   height: 2px;
@@ -1354,7 +1313,6 @@ template {
   border-radius: 2px;
   transition: 0.3s;
 }
-
 .main-header__nav {
   position: fixed;
   inset: 0;
@@ -1368,18 +1326,15 @@ template {
   transition: opacity 0.3s;
   z-index: 10010;
 }
-
 .main-header__nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   text-align: center;
 }
-
 .main-header__nav li {
   margin: 24px 0;
 }
-
 .main-header__nav a {
   position: relative;
   font-size: 2rem;
@@ -1389,7 +1344,6 @@ template {
   letter-spacing: 2px;
   transition: color 0.2s;
 }
-
 .main-header__nav a::after {
   content: "";
   display: block;
@@ -1404,17 +1358,13 @@ template {
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0.8;
 }
-
-.main-header__nav a:hover::after,
-.main-header__nav a:focus::after {
+.main-header__nav a:hover::after, .main-header__nav a:focus::after {
   transform: scaleX(1);
 }
-
 .main-header__nav.active {
   opacity: 1;
   pointer-events: auto;
 }
-
 .main-header__close {
   position: absolute;
   top: 32px;
@@ -1427,30 +1377,25 @@ template {
   z-index: 10011;
   transition: color 0.2s;
 }
-
 @media (max-width: 1600px) {
   .main-header__container {
     padding: 0 60px;
   }
 }
-
 @media (max-width: 992px) {
   .main-header__container {
     padding: 0 40px;
   }
 }
-
 @media (max-width: 768px) {
   .main-header__burger {
     width: 25px;
     height: 25px;
   }
-
   .main-header__burger span {
     height: 2px;
   }
 }
-
 @media (max-width: 576px) {
   .main-header__container {
     padding: 0 30px;
@@ -1505,7 +1450,6 @@ template {
     font-size: 24px;
   }
 }
-
 @media (max-width: 576px) {
   .main-banner__logo-wrapper {
     font-size: 16px;
@@ -1519,7 +1463,6 @@ template {
     margin-left: 15px;
   }
 }
-
 .burger-overlay {
   position: fixed;
   inset: 0;
@@ -1563,13 +1506,11 @@ template {
     padding: 60px 0;
   }
 }
-
 @media (max-width: 576px) {
   .privacy {
     padding: 40px 0;
   }
 }
-
 .kontakt {
   padding: 125px 0 125px 0;
   font-family: "Special Elite", system-ui;
@@ -1579,59 +1520,49 @@ template {
   line-height: 1.5em;
   overflow-x: hidden;
 }
-
 .kontakt__title {
   margin-bottom: 32px;
   font-size: 2.5rem;
   font-weight: 600;
 }
-
 .kontakt__row {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
   justify-content: space-between;
 }
-
 .kontakt__col {
   flex: 1 1 320px;
   min-width: 280px;
   max-width: 48%;
 }
-
 .kontakt__col--info {
   margin-bottom: 32px;
 }
-
 .kontakt__desc {
   color: #888;
   margin-bottom: 16px;
   padding-right: 32px;
 }
-
 .kontakt__phones-label {
   margin-bottom: 14px;
 }
-
 .kontakt__festnetz-label {
   display: inline-block;
   margin-bottom: 18px;
 }
-
 .kontakt__icon-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-right: 50px;
 }
-
 .kontakt__icon {
   max-width: 120px;
   transform: rotate(10deg);
   height: auto;
   flex-shrink: 0;
 }
-
 .kontakt__phone {
   color: #222;
   text-decoration: none;
@@ -1642,11 +1573,9 @@ template {
   font-size: 1.08em;
   font-weight: 700;
 }
-
 .kontakt__phone:hover {
   border-bottom: 2px solid #222;
 }
-
 .kontakt__subtitle {
   font-family: "Bebas Neue", sans-serif;
   font-style: normal;
@@ -1656,17 +1585,14 @@ template {
   font-size: 1.5rem;
   font-weight: 400;
 }
-
 .kontakt__address {
   margin-top: 8px;
 }
-
 .kontakt__address-link {
   text-decoration: none;
   color: #000;
   cursor: pointer;
 }
-
 .kontakt__open-title {
   margin: 32px 0 24px 0;
   font-size: 1.1rem;
@@ -1679,39 +1605,32 @@ template {
   font-size: 1.5rem;
   font-weight: 400;
 }
-
 .kontakt__times-row {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
 }
-
 .kontakt__times-col {
   flex: 1 1 200px;
   min-width: 180px;
   margin-bottom: 24px;
 }
-
 .kontakt__season-title {
   font-weight: 600;
   margin-bottom: 8px;
 }
-
 .kontakt__season-title a {
   color: #222;
   text-decoration: none;
   border-bottom: 1px solid #222;
 }
-
 .kontakt__season-title a:hover {
   border-bottom: 2px solid #222;
 }
-
 .kontakt__times-small {
   font-size: 0.98rem;
   margin-bottom: 0;
 }
-
 .kontakt__festnetz-label {
   display: inline-block;
   margin-bottom: 18px;
@@ -1744,13 +1663,11 @@ template {
     margin-right: 0px;
   }
 }
-
 @media (max-width: 992px) {
   .kontakt {
     padding: 60px 0;
   }
 }
-
 @media (max-width: 576px) {
   .kontakt {
     padding: 40px 0;
@@ -1762,7 +1679,6 @@ template {
     margin-bottom: 20px;
   }
 }
-
 .footer {
   width: 100%;
   background: #000;
@@ -1775,7 +1691,6 @@ template {
   font-style: normal;
   line-height: 1.3em;
 }
-
 .footer__container {
   max-width: 1440px;
   width: 100%;
@@ -1787,11 +1702,9 @@ template {
   flex-wrap: wrap;
   gap: 12px;
 }
-
 .footer__copyright {
   opacity: 0.8;
 }
-
 .footer__cookies-btn {
   background: none;
   border: none;
@@ -1803,40 +1716,33 @@ template {
   text-decoration: underline dotted;
   text-underline-offset: 3px;
 }
-
 .footer__cookies-btn:hover {
   color: white;
   text-decoration: underline solid;
 }
-
 @media (max-width: 1600px) {
   .footer__container {
     padding: 0 60px;
   }
 }
-
 @media (max-width: 992px) {
   .footer {
     font-size: 0.8rem;
   }
-
   .footer__container {
     padding: 0 40px;
   }
 }
-
 @media (max-width: 576px) {
   .footer {
     text-align: center;
   }
-
   .footer__container {
     padding: 0 30px;
     font-size: 0.7rem;
     justify-content: center;
     flex-wrap: wrap-reverse;
   }
-
   .footer__cookies-btn {
     font-size: 12px;
   }
@@ -1871,19 +1777,16 @@ body {
     padding: 0 60px;
   }
 }
-
 @media (max-width: 992px) {
   .wrapper {
     padding: 0 40px;
   }
 }
-
 @media (max-width: 576px) {
   .wrapper {
     padding: 0 30px;
   }
 }
-
 .title {
   font-family: "Special Elite", system-ui;
   font-weight: 400;
@@ -1899,14 +1802,12 @@ body {
     letter-spacing: 4px;
   }
 }
-
 @media (max-width: 768px) {
   .title {
     font-size: 26px;
     letter-spacing: 1px;
   }
 }
-
 .sub-titles {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
@@ -1921,13 +1822,11 @@ body {
     font-size: 22px;
   }
 }
-
 @media (max-width: 700px) {
   .sub-titles {
     font-size: 16px;
   }
 }
-
 .text {
   font-family: "Courier Prime", monospace;
   font-weight: 200;
@@ -1942,21 +1841,18 @@ body {
     font-size: 21px;
   }
 }
-
 @media (max-width: 768px) {
   .text {
     font-size: 18px;
     letter-spacing: 0.5px;
   }
 }
-
 @media (max-width: 576px) {
   .text {
     font-size: 14px;
     letter-spacing: 0.5px;
   }
 }
-
 .photo {
   box-shadow: 0 12px 18px -6px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
@@ -1993,6 +1889,10 @@ body {
   pointer-events: none;
 }
 
+html:has(#preloader) {
+  overflow-y: hidden;
+}
+
 .preloader__text {
   color: #fff;
   font-size: 4rem;
@@ -2012,18 +1912,13 @@ body {
 }
 
 @keyframes blink {
-
-  0%,
-  50% {
+  0%, 50% {
     opacity: 1;
   }
-
-  51%,
-  100% {
+  51%, 100% {
     opacity: 0;
   }
 }
-
 .whatsapp-fab {
   position: fixed;
   right: 32px;
@@ -2074,7 +1969,6 @@ body {
     font-size: 3rem;
   }
 }
-
 @media (max-width: 768px) {
   .whatsapp-fab__wrapper {
     display: none;
@@ -2084,7 +1978,6 @@ body {
     font-size: 2rem;
   }
 }
-
 @media (max-width: 576px) {
   .preloader__text {
     font-size: 1.5rem;
